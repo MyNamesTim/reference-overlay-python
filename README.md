@@ -1,6 +1,6 @@
 # Reference Image Overlay Tool
 
-A lightweight Python tool for overlaying an image on your screen at any position and scale. Useful for artists, designers, or developers who want to trace, reference, or compare images without switching windows.
+A lightweight Python tool for overlaying an image on your screen at any position and scale. Useful for artists, designers, or developers who want to reference or compare images without switching windows.
 
 ---
 
@@ -12,6 +12,15 @@ A lightweight Python tool for overlaying an image on your screen at any position
 - Always-on-top, borderless window for unobstructed reference.
 - Cross-platform: works on Windows, Linux, and macOS.
 - Safeguards in case of a scaling error.
+
+---
+
+## Upcoming/Desired Features and Updates
+
+* Click-through capability.
+* Previews when hovering mouse cursor and waiting to set image position.
+* Scaling slider/input UI with image preview/dimensions.
+* More user-friendly UI, perhaps outside of ```cmd```.
 
 ---
 
@@ -43,10 +52,10 @@ pip install pillow
 ```bash
 python reference_overlay.py
 ```
-2. Enter desired scale
-3. Select image from file viewer
-4. Click to position image on screen
-5. Close ```cmd``` window when finished
+2. Enter desired scale.
+3. Select image from file viewer.
+4. Click to position image on screen.
+5. Close ```cmd``` window when finished.
 
 ---
 
