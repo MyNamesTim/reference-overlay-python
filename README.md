@@ -47,3 +47,19 @@ python reference_overlay.py
 3. Select image from file viewer
 4. Click to position image on screen
 5. Close ```cmd``` window when finished
+
+---
+
+## License
+
+This project is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.  
+
+You are free to:
+
+- **Use** the software for any purpose  
+- **Modify** it to suit your needs  
+- **Distribute** copies of your modifications  
+
+Under the condition that **any modifications you deploy or distribute, including over a network, must also be released under the AGPL-3.0**.  
+
+For the full license text, see [LICENSE](LICENSE) or visit [GNU AGPL v3.0](https://www.gnu.org/licenses/agpl-3.0.html).
