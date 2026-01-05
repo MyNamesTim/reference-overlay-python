@@ -86,8 +86,10 @@ def setpos(event):
     x, y = event.x_root, event.y_root
     t.geometry(f'{w}x{h}+{x}+{y}')
     t.attributes("-alpha", 1.0)
+    t.attributes("-topmost", True)
     t.unbind("<Button-1>")
     print(f'Reference positioned at {x}, {y}')
 
 t.bind("<Button-1>", setpos)
 t.mainloop()
+
