@@ -1,7 +1,5 @@
 # Glass
 
----
-
 A lightweight Python tool for overlaying an image on your screen at any position and scale. Useful for artists, designers, or developers who want to reference or compare images without switching windows.
 
 ---
